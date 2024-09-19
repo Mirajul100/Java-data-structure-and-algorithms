@@ -36,7 +36,7 @@ public class CircularLinkList {
                 last.next = newNode;
                 last = newNode;
             }
-            System.out.print("press 1 to create node or not to 0 : ");
+            System.out.print("Press 1 to create node or not to 0 : ");
             a = input.nextInt();
         } while (a == 1);
     }
