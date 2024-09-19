@@ -27,7 +27,7 @@ public class Move0ToLast {
 
     public static void main(String[] args) {
         Move0ToLast move = new Move0ToLast();
-        int[] array = { 1, 0, 0, 2, 3, 4, 5, 0, 6, 0, 0 };
+        int[] array = { 1, 0, 0, 2, 3, 4, 5, 0, 6, 0 };
         move.printArray(array);
         move.printArray(move.move0(array));
     }
