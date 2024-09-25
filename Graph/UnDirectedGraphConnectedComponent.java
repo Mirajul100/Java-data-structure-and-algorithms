@@ -56,6 +56,14 @@ public class UnDirectedGraphConnectedComponent {
         return false;
     }
 
+    public void cc(boolean l) {
+        if (l == true) {
+            System.out.println("Connected");
+        } else {
+            System.out.println("Not connected");
+        }
+    }
+
     public static void main(String[] args) {
 
         UnDirectedGraphConnectedComponent uc = new UnDirectedGraphConnectedComponent(6);
@@ -68,11 +76,7 @@ public class UnDirectedGraphConnectedComponent {
 
         boolean c = uc.getCC(0, 1);
 
-        if (c == true) {
-            System.out.println("Connected");
-        } else {
-            System.out.println("Not connected");
-        }
+        uc.cc(c);
 
     }
 }
